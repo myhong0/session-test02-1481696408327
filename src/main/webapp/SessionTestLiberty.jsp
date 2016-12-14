@@ -19,6 +19,7 @@ function move()
 <%
 	if (request.getParameter("DATA")!= null){
 		session.setAttribute("DATA",request.getParameter("DATA"));
+		System.out.println(session.getAttribute("DATA"));
 	}
 		
  %>
