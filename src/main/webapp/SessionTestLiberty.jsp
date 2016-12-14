@@ -46,7 +46,7 @@ function move()
 		</tr>
 		<tr>
 		    <td>Server name</td>
-		    <td><%=new InitialContext().lookup("serverName")%></td>
+		   
 		</tr>
 	</tbody>
 </table>
