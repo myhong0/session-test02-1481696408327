@@ -1,5 +1,4 @@
 applications:
-- path: target/JavaHelloWorldApp.war
   memory: 512M
   instances: 1
   domain: mybluemix.net
@@ -7,4 +6,4 @@ applications:
   host: session-test02
   disk_quota: 1024M
   services:
-  - Session Cache-test
+  - Session Cache-up
